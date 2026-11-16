@@ -12,7 +12,8 @@ option(EEPROM_BUILD_TESTS "Build the EEPROM library unit tests (GoogleTest, fetc
 add_library(eeprom STATIC
     src/crc32.cpp
     src/status.cpp
-    src/writer.cpp)
+    src/writer.cpp
+    src/store.cpp)
 add_library(eeprom::eeprom ALIAS eeprom)
 target_include_directories(eeprom PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 target_compile_features(eeprom PUBLIC cxx_std_17)
