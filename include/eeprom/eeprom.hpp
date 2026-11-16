@@ -5,3 +5,4 @@
 #include "eeprom/crc32.hpp"
 #include "eeprom/device.hpp"
 #include "eeprom/status.hpp"
+#include "eeprom/writer.hpp"
