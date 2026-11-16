@@ -1,7 +1,7 @@
 #pragma once
 
-// C++ EEPROM Library: wear-levelled key-value store and log ring.
-// Placeholder header; the implementation arrives with v0.1.0.
+// C++ EEPROM Library: wear-levelled record store (Store) and log ring (LogRing).
 
-namespace eeprom {
-} // namespace eeprom
+#include "eeprom/crc32.hpp"
+#include "eeprom/device.hpp"
+#include "eeprom/status.hpp"
